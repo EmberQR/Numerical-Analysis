@@ -1,5 +1,5 @@
 # Numerical-Analysis
-一个数值分析脚本，用来计算一些常用的函数。
+一个应用于**Mathematica**的数值分析脚本，用来计算一些常用的函数。
 - 求用近似值a来近似精确值b的有效数字位数：`EffectiveDigits[a,b]`
 - 统计顺序Gauss消去法的乘除法计算次数：`GaussN[n]`，n为线性方程组的未知数个数
 - LU分解：`LUDe[M]`，返回{L,U}，L为单位下三角矩阵，U为上三角矩阵
