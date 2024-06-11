@@ -1,5 +1,5 @@
 # Numerical-Analysis
-一个数值分析脚本，用来计算一些常用的函数
+一个数值分析脚本，用来计算一些常用的函数。
 - 求用近似值a来近似精确值b的有效数字位数：`EffectiveDigits[a,b]`
 - 统计顺序Gauss消去法的乘除法计算次数：`GaussN[n]`，n为线性方程组的未知数个数
 - LU分解：`LUDe[M]`，返回{L,U}，L为单位下三角矩阵，U为上三角矩阵
@@ -16,5 +16,8 @@
 - 判定矩阵是否严格对角占优：`IsStrictlyDiagonallyDominant[A]`
 - 求SOR方法的迭代矩阵：`SOR[A,w]`，w为松弛因子
 - QR分解：`QRDecomposition[M]`，返回一个正交矩阵和一个上三角矩阵
+
+效果如图所示：
+![image](https://github.com/EmberQR/Numerical-Analysis/assets/135571263/ef0ec4e0-2727-4828-b1ca-f43d03397dc3)
 
 请先计算笔记本，然后在脚本下面的代码区域使用上述函数。
